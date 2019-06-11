@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil_fragment"
+
+            android:title="Accueil"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_services_operateur_fragment"
+
+            android:title="Services Opérateur" />
+        <item
+            android:id="@+id/nav_map_fragment"
+
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_chaine_youtube_fragment"
+
+            android:title="Chaîne Youtube Ericsson" />
+        <item
+            android:id="@+id/nav_radios_tunisiennes_fragment"
+
+            android:title="Radios tunisiennes" />
+        <item
+            android:id="@+id/nav_horloge_atomique_fragment"
+
+            android:title="Horloge" />
+        <item
+            android:id="@+id/nav_tv_show_fragment"
+
+            android:title="TV Show" />
+        <item
+            android:id="@+id/nav_meteo_fragment"
+
+            android:title="Météo" />
+        <item
+            android:id="@+id/nav_infos_device_fragment"
+
+            android:title="Infos Device" />
+        <item
+            android:id="@+id/nav_ebay_fragment"
+
+            android:title="ebay" />
+        <item
+            android:id="@+id/nav_parametres_du_compte_fragment"
+
+            android:title="Paramètres du compte" />
+        <item
+            android:id="@+id/nav_contacter_admin_fragment"
+
+            android:title="Contacter Administrateur" />
+        <item
+            android:id="@+id/nav_deconnexion_fragment"
+
+            android:title="Déconnexion" />
+    </group>
+</menu>

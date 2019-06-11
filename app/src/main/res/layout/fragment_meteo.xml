@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.theangel.ericsson.ericsson.fragments.MeteoFragment">
+
+    <Button
+        android:id="@+id/btn_meteo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Weather"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:background="@color/blue_normal"/>
+
+
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/bmb_meteo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+
+</RelativeLayout>
+

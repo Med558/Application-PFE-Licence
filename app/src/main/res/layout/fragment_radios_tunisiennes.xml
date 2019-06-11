@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6666CC"
+    tools:context="com.theangel.ericsson.ericsson.fragments.RadiosTunisiennesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mosaique_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="MOSAIQUE FM 94.9"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>
+
+                <Button
+                    android:id="@+id/ifm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="Radio IFM 100.6"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/shems_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="SHEMS FM 101.7"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>
+
+                <Button
+                    android:id="@+id/express_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="EXPRESS FM 103.6"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:id="@+id/oxygene_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:text="Oxygene FM 90.0"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>                    />
+
+                <Button
+                    android:id="@+id/cap_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="CAP FM 105.6"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/jawhara_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="JAWHARA FM 102.5"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>
+
+                <Button
+                    android:id="@+id/oasis_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="Oasis FM 96.5"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/knooz_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="KnOOz FM 105.1"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>
+
+                <Button
+                    android:id="@+id/sabra_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="Sabra FM 98.8"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/mfm_tn"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="MFM 94.6"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>
+
+                <Button
+                    android:id="@+id/radio6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="Radio 6 97.2"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/saraha_fm"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="Saraha FM 107.3"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"/>
+
+                <Button
+                    android:id="@+id/radio_med"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="Radio Med 100.0"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:background="@drawable/zero"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

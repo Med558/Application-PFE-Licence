@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6600"
+    tools:context="com.theangel.ericsson.ericsson.activities.RechargerSoldeOoredooActivity">
+
+    <Button
+        android:id="@+id/btn_back_recharger_solde_orange"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/arrow_back"/>
+
+    <ScrollView
+        android:layout_below="@+id/btn_back_recharger_solde_orange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recharger Solde"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Veuillez taper les 14 chiffres de votre carte de recharge"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:padding="5dp">
+
+                <EditText
+                    android:id="@+id/et_recharger_solde_orange"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="14"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18sp"
+                    android:textColorHint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:hint="Taper les chiffres ici"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btn_effacer_num_recharger_solde_orange"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/trash_white" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_valider_recharger_solde_orange"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valider"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

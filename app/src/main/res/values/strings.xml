@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Ericsson</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="quitter">Etes-vous sûr de vouloir quitter l\'application ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+
+    <string name="connexion_internet">Veuillez vous connecter à Internet.</string>
+
+
+    <string name="txt_accueil">Accueil</string>
+    <string name="txt_ebay">ebay</string>
+    <string name="txt_service_operateur">Services Opérateur</string>
+    <string name="txt_map">Map</string>
+    <string name="txt_chaine_youtube">Chaîne Youtube</string>
+    <string name="txt_radios">Radios tunisiennes</string>
+    <string name="txt_horloge">Horloge</string>
+    <string name="txt_tv_show">TV Show</string>
+    <string name="txt_meteo">Météo</string>
+    <string name="txt_infos_device">Infos Device</string>
+
+    <string name="sauthentifier">S\'authentifier</string>
+    <string name="sinscrire">S\'inscrire</string>
+
+
+    <string name="simple_circle_button_example">Simple Circle Button Example</string>
+    <string name="button_place_alignment_example">Button Place Alignment Example</string>
+    <string name="text_inside_circle_button_example">Text Inside Circle Button Example</string>
+    <string name="text_outside_circle_button_example">Text Outside Circle Button Example</string>
+    <string name="ham_button_example">Ham Button Example</string>
+    <string name="square_and_piece_corner_radius_example">Square And Piece Corner Radius Example</string>
+    <string name="boom_example">Boom Example</string>
+    <string name="order_example">Order Example</string>
+    <string name="actionbar_example">ActionBar Example</string>
+    <string name="ease_example">Ease Example</string>
+    <string name="listener_example">Listener Example</string>
+    <string name="control_example">Control Example</string>
+    <string name="share_example">Share Example</string>
+    <string name="list_example">List Example</string>
+    <string name="recycler_view_example">Recycler View Example</string>
+    <string name="fragment_example">Fragment Example</string>
+    <string name="change_boom_button_example">Change Boom Button Example</string>
+    <string name="tool_bar_example">ToolBar Example</string>
+
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+    <string name="text_inside_circle_button_text_highlighted">Text Inside Circle Button(Highlighted)</string>
+    <string name="text_inside_circle_button_text_unable">Text Inside Circle Button(Unable)</string>
+
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_highlighted">Text Outside Circle Button(Highlighted)</string>
+    <string name="text_outside_circle_button_text_unable">Text Outside Circle Button(Unable)</string>
+
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_text_highlighted">Ham Button Text(Highlighted)</string>
+    <string name="text_ham_button_text_unable">Ham Button Text(Unable)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="text_ham_button_sub_text_highlighted">Ham Button Sub Text(Highlighted)</string>
+    <string name="text_ham_button_sub_text_unable">Ham Button Sub Text(Unable)</string>
+
+    <string name="change_city">Change city</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">587070bcccbd7201c7f60df67f161cc6</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#14376B"
+    tools:context="com.theangel.ericsson.ericsson.activities.TransfertDeCreditOoredooActivity">
+
+    <Button
+        android:id="@+id/btn_back_transfert_de_credit_tuntel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/arrow_back"/>
+
+    <ScrollView
+        android:layout_below="@+id/btn_back_transfert_de_credit_tuntel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transfert de crédit"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Veuillez taper les 8 chiffres du numéro de téléphone Tunisie Télécom auquel vous souhaitez  effectuer un transfet de solde."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:padding="5dp">
+
+                <EditText
+                    android:id="@+id/et_numero_transfert_de_credit_tuntel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18sp"
+                    android:textColorHint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:hint="Taper le numéro ici"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btn_effacer_numero_transfert_de_credit_tuntel"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/trash_white" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Composez le montant que vous souhaitez transférer. Il doit être compris entre 500 millimes et 4999 millimes."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:padding="5dp">
+
+                <EditText
+                    android:id="@+id/et_montant_transfert_de_credit_tuntel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18sp"
+                    android:textColorHint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:hint="Taper le montant ici"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btn_effacer_montant_transfert_de_credit_tuntel"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/trash_white" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_valider_transfert_de_credit_tuntel"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valider"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

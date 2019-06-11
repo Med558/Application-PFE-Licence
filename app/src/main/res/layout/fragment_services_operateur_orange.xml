@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6600"
+    tools:context="com.theangel.ericsson.ericsson.fragments.ServicesOperateurOrangeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services Opérateur"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orange"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/btn_consulter_solde_orange"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Consulter Solde"
+                    android:textColor="#000000"
+                    android:background="@drawable/zero_noir"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/btn_forfait_internet_orange"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Forfait Internet"
+                    android:textColor="#000000"
+                    android:background="@drawable/zero_noir"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/btn_recharger_solde_orange"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Recharger Solde"
+                    android:textColor="#000000"
+                    android:background="@drawable/zero_noir"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/btn_contacter_service_client_orange"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Contacter Service Client"
+                    android:textColor="#000000"
+                    android:background="@drawable/zero_noir"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/btn_transfert_de_credit_orange"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:text="Transfert de crédit"
+                    android:textColor="#000000"
+                    android:background="@drawable/zero_noir"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:layout_margin="10dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/zero_noir"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb_services_operateur_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

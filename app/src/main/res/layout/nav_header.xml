@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="#660099"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/tv_nom_user"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foulén Ibnou Falten"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.theangel.ericsson.ericsson.activities.LoginActivity"
+    android:gravity="center"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ericsson_logo"/>
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tapez votre numéro de téléphone"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:maxLength="8"/>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/et_pass_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:textColor="#000000">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_mot_de_passe_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tapez votre mot de passe"
+                android:inputType="textPassword"
+                android:textColor="#000000"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Se souvenir de moi"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_connexion"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Connexion"-->
+        <!--android:layout_gravity="center"/>-->
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/circularButton1_login"
+            android:layout_width="196dp"
+            android:layout_height="64dp"
+            android:textColor="@color/cpb_white"
+            android:textSize="18sp"
+            app:cpb_cornerRadius="48dp"
+            app:cpb_iconComplete="@drawable/ic_action_accept"
+            app:cpb_iconError="@drawable/ic_action_cancel"
+            app:cpb_textIdle="S'authentifier"
+            android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_sinscrire"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sinscrire"
+        android:layout_gravity="center"
+        android:background="@color/blue_normal"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_ignorer_etape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ignorer cette étape"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

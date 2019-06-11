@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_plus_signin_btn_text_light_disabled"
+    tools:context="com.theangel.ericsson.ericsson.fragments.AccueilFragment">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <!--android:layout_above="@+id/scroll_btn">-->
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </android.support.v4.view.ViewPager>
+        <!--<ImageView-->
+            <!--android:id="@+id/img_accueil"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_logo_operateur"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:visibility="visible"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_operateur_hors_ligne"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Veuillez vous authentifier pour profiter des services de votre opérateur. Veuillez vous authentifier pour profiter des services de votre opérateur. Veuillez vous authentifier pour profiter des services de votre opérateur."-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#000000"-->
+            <!--android:visibility="visible"/>-->
+
+    </LinearLayout>
+
+    <!--<HorizontalScrollView-->
+        <!--android:id="@+id/scroll_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--&gt;-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lay2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="#CC000000"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_horloge"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Horloge Atomique"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_radios"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Radios"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_youtube"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Youtube"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_map"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Map"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_services_operateur"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Services Opérateur"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="1"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="2"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="3"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="4"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="5"/>-->
+
+    <!--</LinearLayout>-->
+    <!--</HorizontalScrollView>-->
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb_accueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.theangel.ericsson.ericsson.fragments.InfosDeviceFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom de l'utilisateur"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_nom_prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numéro de téléphone"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_numtel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modèle de l'appareil"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version d'Android"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_version_android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom du produit"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom du Hardware"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_hardware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numéro de série"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_serie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMEI de l'appareil"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/common_plus_signin_btn_text_light_focused"/>
+
+            <TextView
+                android:id="@+id/tv_imei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb_infos_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
